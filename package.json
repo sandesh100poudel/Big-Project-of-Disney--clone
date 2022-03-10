@@ -22,7 +22,7 @@
     "web-vitals": "^1.1.2"
   },
   "scripts": {
-    "start": "react-scripts --openssl-legacy-provider start",
+    "start": "react-scripts --openssl-legacy-provider start", //this line is used because it is not using operating in node 17 version , so to run this i used this approch other wise this wiil not run
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
